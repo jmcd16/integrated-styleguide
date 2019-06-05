@@ -64,6 +64,17 @@
       <param name="maxChars" value="55"/>
       <param name="normalize" value="yes"/>
       <param name="message"
-             value="Titles should have no more than 55 characters, otherwise they may be&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;rendered truncated."/>
+             value="Titles with more than 55 characters get cut short in Google search results. If your title&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;needs to be longer, frontload the important information."/>
+   </pattern>
+   <!--Generated from topics/seo.dita.
+    -->
+   <pattern is-a="restrictCharacters"
+            see="http://jmcd16.github.io/integrated-styleguide/topics/seo.html">
+      <param name="parentElement" value="shortdesc"/>
+      <param name="minChars" value="1"/>
+      <param name="maxChars" value="164"/>
+      <param name="normalize" value="yes"/>
+      <param name="message"
+             value="Accurately describe your page, emphasizing the value the user will get from your content.&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Descriptions longer than 164 characters get cut short in Google search&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;results. If your description needs to be longer, frontload the important&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;information."/>
    </pattern>
 </schema>
